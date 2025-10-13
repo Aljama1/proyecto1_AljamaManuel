@@ -1,0 +1,176 @@
+.pagina{
+    background-color: f3f4f6;
+    border-radius: 20px;
+    border: 1px solid #333;
+}
+
+
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    justify-content:  space-between; /* espacio entre los elementos */
+    background-color: brown;
+    font: "Times New Roman", Times, serif;
+    padding: 10px 40px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+header h1 {
+    flex: 1;                     /* el título ocupa el centro del espacio */
+    text-align: center;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    color: azure;
+    margin-left: 350px;
+}
+
+header ul {
+    list-style: none; /* quita los puntos de la lista */
+    display: flex;
+    gap: 40px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+header .titulo {
+    display: flex;
+    align-items: center;        /* centra verticalmente la flecha con el título */
+    justify-content: center;    /* centra el título horizontalmente */
+    position: relative;         /* necesario para la flecha absoluta */
+    height: 120px;
+}
+/* Flecha a la izquierda */
+header .flecha {
+    position: absolute;         /* para que quede a la izquierda */
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-color: white;
+    top: 10px;
+}
+
+/* Título centrado */
+header .titulo h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;           /* tamaño gigante */
+    color: azure;
+    margin: 0;                  /* quita margen por defecto */
+    text-align: center;         /* centra el texto dentro del h1 */
+}
+
+/* Imagen del logo fuera del header */
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+ul li{
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+main {
+    background-color: #fff; /* fondo blanco para contraste */
+    border: 2px solid #333;
+    border-radius: 15px;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+main h1 {
+    color: brown;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #888;
+}
+main h1:hover {
+    color: darkred;
+}
+
+main h2 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid brown;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+main p {
+    font-size: 20px;
+    color: #222;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+main ul {
+    text-align: left;
+    display: inline-block;
+    font-size: 18px;
+    color: #444;
+    line-height: 1.8;
+}
+
+main ul li {
+    margin-bottom: 8px;
+    padding-left: 10px;
+    position: relative;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
